@@ -30,11 +30,12 @@ Legend:
 - [Axolemma](https://github.com/seanohue/axolemma) (v2.x or 3.x, examples are in 2.x) A CLI tool and library leveraging [ROT-js](https://ondras.github.io/rot.js/) to procedurally generate areas for Ranvier games.
 - [Soma](https://github.com/RanvierMUD/soma) (2.x) Electron-based building tool. :warning:
 - [ranvier-webhooks](https://github.com/azigler/ranvier-webhooks) (3.x). This bundle comes with a webhook that handles GitHub events so you can trigger an automatic rebuild and relaunch of your Ranvier instance when committing to your public repository.
-- [ranvier-zpanel](https://github.com/azigler/ranvier-zpanel) (3.x) Web-based control panel and building client for Ranvier :construction:
+- [ranvier-zpanel](https://github.com/azigler/ranvier-zpanel) (3.x) Web-based control panel and building client for Ranvier :warning:
 
 ### Core Engine Forks & Versions
 
 - [RanvierMUD 3.1](https://github.com/RanvierMUD/core/tree/3.1-preview) (v3.1) Experimental alpha branch of the core engine. :construction: :warning:
+- [Ranvier-TS](https://github.com/Ranvier-TS/core-ts) (v3.1+) A fork of Ranvier that converts the entire engine to TypeScript, with some additional enhancements. :construction:
 - [Pinwheel MUD Engine](https://github.com/azigler/pinwheel) (2.x) Pinwheel is a rewrite of the Ranvier MUD engine and its bundles into a highly opinionated format. The engine makes decisions about world persistence and core features so you can focus on building your world and community. :warning:
 
 ### Clients
@@ -50,13 +51,15 @@ Legend:
 
 ### Games
 
-- [Myelin: Escape the Spire](http://myelin.space) ([Itch](https://muscarian.itch.io/myelin-escape-the-spire)) (v2.x) A procedurally-generated sci-fi dungeon crawl. :warning:
+- [Mnemosyne](https://muscarian.itch.io/mnemosyne) A graphical browser-based game using modified Ranvier-TS (3.x? 4.x?) as a backend.
+- Your game here! Please submit a pull request.
 
 ### Libraries
 
 - [Fantasy Time Crunch](https://github.com/seanohue/fantasy-time-crunch) (v2.x or v3.x) A library for handling arbitrary units of time and time-related "tick" events, made to plug into a Ranvier bundle easily. :construction:
 - [Lobus](https://github.com/seanohue/lobus) (v2.x or 3.x) A library for handling event-based menus, made for creating Ranvier input-event menus. :construction:
 - [ranvier-tracery](https://github.com/azigler/ranvier-tracery) (3.x) Generate and manipulate text in Ranvier with Tracery
+- [Magic-Symbols](https://github.com/Sakeran/magic-symbols) (v2.x or v3.x) Color syntax and parser for ANSI and Xterm256 colors
 
 ## Contact
 
